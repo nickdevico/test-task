@@ -1,0 +1,18 @@
+.button {
+  display: inline-flex;
+  padding: 0 20px;
+  line-height: 44px;
+  font-size: 18px;
+  transition: 0.2s ease;
+  border-radius: 5px;
+  color: #ffffff;
+  background: #1976d2;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+  &--loading {
+    pointer-events: none;
+    opacity: 0.8;
+  }
+}
